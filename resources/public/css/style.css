@@ -7,15 +7,15 @@ body {
 
 body {
     font: 14px/25px Condiment, Oxygen, sans-serif;
-    color: #000000;
+    color: black;
     min-width: 960px;
-    background: #000000
+    background: black;
 }
 
 .main {
     width: 100%;
     background: url(../images/main.jpg) center 0 repeat;
-    border-top: #000000 5px solid
+    border-top: black 5px solid
 }
 
 .row {
