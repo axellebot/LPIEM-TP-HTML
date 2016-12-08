@@ -29,6 +29,8 @@ header .top-menu{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: stretch;
+
 
     /*Border style*/
     border-radius: 12px;
@@ -46,6 +48,14 @@ header .top-menu ul.top-menu-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: stretch;
+
+
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }
 
 header .top-menu ul.top-menu-social{
@@ -54,8 +64,16 @@ header .top-menu ul.top-menu-social{
     justify-content: flex-end;
 }
 
+header .top-menu ul.top-menu-nav li {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
 header .top-menu ul.top-menu-nav li a{
     text-decoration: none;
+    align-self: center;
+    color: white;
 }
 
 header .top-menu ul.top-menu-nav li:hover{
