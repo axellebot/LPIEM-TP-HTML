@@ -18,6 +18,30 @@ body {
     border-top: black 5px solid
 }
 
+header .top-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header .top-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .top-menu ul.top-menu-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+header .top-menu ul.top-menu-social{
+    display: flex;
+    flex-direction: row;
+}
+
+
 /*******************
   Media Behavior
 *******************/
