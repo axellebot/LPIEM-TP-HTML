@@ -64,6 +64,14 @@ header .top-menu ul.top-menu-social{
     justify-content: flex-end;
 }
 
+header .top-menu ul.top-menu-social li img{
+    margin: 0 2px;
+}
+
+header .top-menu ul.top-menu-social li img:hover{
+    background-color: black;
+}
+
 header .top-menu ul.top-menu-nav li {
     display: flex;
     align-items: center;
