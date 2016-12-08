@@ -17,3 +17,18 @@ body {
     background: url(../images/main.jpg) center 0 repeat;
     border-top: #000000 5px solid
 }
+
+/*
+ * Media Queries
+*/
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+
+}
+
+@media screen and (min-width: 993px) {
+
+}
