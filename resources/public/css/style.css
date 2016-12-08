@@ -36,6 +36,7 @@ header .top-menu{
     border-color: #ebebec;
 }
 
+
 header .top-menu ul{
     list-style: none;
     display: flex;
@@ -53,6 +54,32 @@ header .top-menu ul.top-menu-social{
     justify-content: flex-end;
 }
 
+header .top-menu ul.top-menu-nav li a{
+    text-decoration: none;
+}
+
+header .top-menu ul.top-menu-nav li:hover{
+    background-color: black;
+}
+
+.btn {
+    background-color: #5FB9C9;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 15px;
+    padding: 6px 20px 5px 20px;
+    height: 36px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+article p{
+    text-align: justify;
+}
 /*******************
   Color Behavior
 *******************/
