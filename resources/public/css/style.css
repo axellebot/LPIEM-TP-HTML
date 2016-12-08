@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Condiment|Oxygen');
+
+html{
+    /*font-family: 'Condiment', cursive;*/
+    font-family: 'Oxygen', sans-serif;
+}
+
 html,
 body {
     width: 100%;
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 body {
-    font: 14px/25px Condiment, Oxygen, sans-serif;
     color: black;
     min-width: 960px;
     background: black;
