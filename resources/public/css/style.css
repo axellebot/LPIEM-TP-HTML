@@ -111,12 +111,71 @@ article p{
 }
 
 /*******************
+  Slider
+*******************/
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: -100%;
+    }
+    100% {
+        left: -200%;
+    }
+}
+
+div.slider {
+    overflow: hidden;
+}
+
+div.slider figure img {
+    width: 33.3333%;
+    float: left;
+}
+
+div.slider figure {
+    position: relative;
+    width: 300%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 10s slidy infinite;
+}
+
+.control-buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.control-buttons li {
+    cursor: pointer;
+    display: inline-block;
+    background: #424f66;
+    height: 12px;
+    width: 12px;
+    margin: 6px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.control-buttons li:active {
+    background: #00c5b9;
+}
+
+.control-buttons li:hover {
+    background: #00c5b9;
+}
+
+/*******************
   Media Behavior
 *******************/
 img.responsive-img,
 video.responsive-video {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
