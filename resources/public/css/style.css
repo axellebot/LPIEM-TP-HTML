@@ -23,6 +23,11 @@ header .top-menu{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    /*Border style*/
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #ebebec;
 }
 
 header .top-menu ul{
@@ -42,6 +47,17 @@ header .top-menu ul.top-menu-social{
     justify-content: flex-end;
 }
 
+/*******************
+  Color Behavior
+*******************/
+
+.black {
+    background-color: black;
+}
+
+.fountain-blue {
+    background-color: #5FB9C9;
+}
 
 /*******************
   Media Behavior
